@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Futura;
+  src: url('./Assets/Fonts/FuturaPTLight.otf');
+}
+
+@font-face {
+  font-family: Shorelines Script;
+  src: url('./Assets/Fonts/shorelines-script-bold.otf');
+}
+
+h1 {
+  font-family: Shorelines Script;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Futura;
+}
+
+html,
+body,
+:root {
+  height: 100vh;
+  overflow-x: hidden; 
+}
+
+body {
+  background: #FFF8F8;
+}
+
+#root {
+  display: flex;
+}
+
+.App {
+  font-family: Futura;
+}
+
+a {
+  text-decoration: none;
+}

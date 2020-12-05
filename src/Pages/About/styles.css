@@ -1,0 +1,30 @@
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.fatia {
+    width: 385px;
+    height: 411px;
+}
+
+.content {
+    width: 516px
+}
+
+.content p {
+    padding-top: 50px;
+    color: #D59594;
+    line-height: 18px;
+}
+
+.content h1 {
+    font-family: Shorelines Script;
+    font-size: 35px;
+    color: #C58988;
+}
